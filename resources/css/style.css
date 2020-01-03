@@ -25,12 +25,15 @@ header {
  z-index: 100;
  width:100%;
  background-color: white;
+ 
 }
 
 header .header-content {
     display: flex;
     align-items: center;
-    padding: 1.5rem;
+    padding: 1rem;
+    margin-top: 0rem;
+    
 }
 
 .nav-menu {
@@ -68,8 +71,8 @@ header .header-content {
     background-repeat: no-repeat;
     display: inline-block;
     position: relative;
-    top: 1rem;
-    left: 1.5rem;    
+    top: 0.5rem;
+    left: 4.5rem;    
 }
 
 /* Page Tittle Section */
@@ -80,9 +83,10 @@ header .header-content {
     text-align: center;
     align-items: center;
     justify-content: center;
-    height: 4rem;
+    height: 5rem;
     display: flex;
     font-weight: bold;
+    letter-spacing: 0.4rem;
     z-index: 5;
 }
 
