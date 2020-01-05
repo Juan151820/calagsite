@@ -56,6 +56,7 @@ header .header-content {
     text-transform: uppercase;
     font-weight: 900; 
     font-size: 1.25rem;
+    letter-spacing: 0.1rem;
 }
 
 .nav-menu a {
@@ -74,6 +75,11 @@ header .header-content {
     top: 0.5rem;
     left: 4.5rem;    
 }
+
+li a:hover {
+    background-color: #003580;
+    color: white;
+  }
 
 /* Page Tittle Section */
 
