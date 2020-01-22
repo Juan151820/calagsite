@@ -79,7 +79,62 @@ header .header-content {
 li a:hover {
     background-color: #003580;
     color: white;
-  }
+}
+
+@media only screen and (min-width: 895px) {
+    header .header-mobile {
+      display: none;
+    }
+}
+@media only screen and (max-width: 720px) {
+    .header-content .nav-menu {
+        display: none;        
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .logo {
+        display: none;        
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    li {
+        display: inline-block;
+        text-decoration: none; 
+        padding: 0.5rem 2rem;             
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    ul {
+        padding: 0;             
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    nav {
+        text-align: center; 
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;            
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .header-mobile i {
+        position: relative;
+        bottom: 1.8rem;         
+    }
+}
+
+
+
+@media only screen and (max-width: 720px) {
+    .header-content {
+        width: 100%;
+    }
+}
 
 /* Page Tittle Section */
 
