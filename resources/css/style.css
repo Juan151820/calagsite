@@ -24,16 +24,14 @@ header {
  position: fixed;
  z-index: 100;
  width:100%;
- background-color: white;
- 
+ background-color: white; 
 }
 
 header .header-content {
     display: flex;
     align-items: center;
     padding: 1rem;
-    margin-top: 0rem;
-    
+    margin-top: 0rem;    
 }
 
 .nav-menu {
@@ -64,6 +62,7 @@ header .header-content {
     text-decoration: none;
     padding: 0.2rem 0.9rem;
 }
+
 .logo {
     height: 6rem;
     width: 6rem;
@@ -86,6 +85,7 @@ li a:hover {
       display: none;
     }
 }
+
 @media only screen and (max-width: 720px) {
     .header-content .nav-menu {
         display: none;        
@@ -108,7 +108,8 @@ li a:hover {
 
 @media only screen and (max-width: 720px) {
     ul {
-        padding: 0;             
+        padding: 0;
+        line-height: 10rem;             
     }
 }
 
@@ -117,19 +118,16 @@ li a:hover {
         text-align: center; 
         align-items: center;
         justify-content: center;
-        vertical-align: middle;            
+        vertical-align: middle;                   
     }
 }
 
 @media only screen and (max-width: 720px) {
     .header-mobile i {
         position: relative;
-        bottom: 3.5rem;       
-          
+        bottom: 3.5rem;           
     }
 }
-
-
 
 @media only screen and (max-width: 720px) {
     .header-content {
@@ -151,6 +149,19 @@ li a:hover {
     letter-spacing: 0.4rem;
     z-index: 5;
 }
+
+@media only screen and (max-width: 720px) {
+    .page-title {
+        height: 10rem;
+        width: auto;
+        display: flex;
+        flex-shrink: inherit;
+        text-align: center;
+        justify-content: center;
+        font-size: 2.5rem;
+    }
+}
+
 
 
 
